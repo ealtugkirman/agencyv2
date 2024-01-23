@@ -1,5 +1,5 @@
 import Footer from './components/Layout/Footer';
-import Header from './components/Layout/Header'
+import Header from "./components/Header"
 import './globals.css'
 import { Work_Sans } from "next/font/google";
 const ws = Work_Sans({ subsets: ["latin"] });
@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={ ws.className }>
+        <Header />
         { children }
         < Footer />
       </body>
