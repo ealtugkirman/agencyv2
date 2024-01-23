@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 import styles from './Textcom.module.css'
 import { useState } from 'react';

@@ -5,6 +5,7 @@ import Offers from './components/Offers'
 import ContactUs from './components/ContactUs'
 import TextCom from "./components/textcom/Textcom"
 import Homen from './homen/homen'
+// import Projects from './components/Projects'
 // import Steps from './components/Steps'
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </div>
       < Clients />
       < Offers />
+      {/* < Projects /> */}
       < ContactUs />
     </main>
   )

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import React from "react";
 import Image from "next/image";
@@ -12,16 +13,16 @@ import ContactUs from "../components/ContactUs";
 
 const page = () => {
   return (
-    <div className="h-full flex flex-col pt-44 items-center text-dark bg-light">
+    <div className="h-full flex flex-col pt-24 items-center text-dark bg-light">
       <h1 className="text-6xl text-gradient font-bold mb-5">
         Web Design Process
       </h1>
-      <h3 className="text-xl opacity-55 mb-5">
+      <h3 className="text-xl text-slate-500 mb-5">
         A basic outline of the web design process we would use on a mid sized
         web design project
       </h3>
       <div className="mx-10 md:mx-44">
-        <Image src={img1} width={1024} height={500} />
+        <Image alt="digital voyage web tasarım süreçleri" src={img1} width={1024} height={500} />
       </div>
       <div id="paragraf" className="mx-10 md:mx-52 text-wrap my-12 ">
         <h3 className=" mb-4">An introduction to the web design process</h3>
@@ -185,7 +186,7 @@ const page = () => {
         </div>
         <div className=" mt-20 justify-center  flex">
           {" "}
-          <Image src={wireframing} width={700} />
+          <Image alt="digital voyage web tasarım süreçleri" src={wireframing} width={700} />
         </div>{" "}
         <div className="text-lg space-y-6 ">
           <h3 className="pt-20">Wireframing</h3>
@@ -476,7 +477,7 @@ const page = () => {
         </div>
         <div className=" mt-20 justify-center  flex">
           {" "}
-          <Image src={web} width={700} />
+          <Image alt="digital voyage web tasarım süreçleri" src={web} width={700} />
         </div>{" "}
         <div className="text-lg space-y-6 ">
           <h3 className="pt-20">Website Development</h3>
@@ -629,7 +630,7 @@ const page = () => {
         </div>
         <div className=" mt-20 justify-center  flex">
           {" "}
-          <Image src={content} width={700} />
+          <Image alt="digital voyage web tasarım süreçleri" src={content} width={700} />
         </div>{" "}
         <div className="text-lg space-y-6 ">
           <h3 className="pt-20">Content Handling</h3>
@@ -770,7 +771,7 @@ const page = () => {
         </div>
         <div className=" mt-20 justify-center  flex">
           {" "}
-          <Image src={review} width={700} />
+          <Image alt="digital voyage web tasarım süreçleri" src={review} width={700} />
         </div>{" "}
         <div className="text-lg space-y-6 ">
           <h3 className="pt-20">Full Website Review</h3>
@@ -883,7 +884,7 @@ const page = () => {
         </div>
         <div className=" mt-20 justify-center  flex">
           {" "}
-          <Image src={launch} width={700} />
+          <Image alt="digital voyage web tasarım süreçleri" src={launch} width={700} />
         </div>
         <div className="text-lg space-y-4">
           <h3 className="mt-20">Launch</h3>

@@ -1,11 +1,11 @@
 export const links = [
     {
-        title: "Projects",
+        title: "Home",
         href: "/"
     },
     {
-        title: "Agency",
-        href: "/"
+        title: "Process",
+        href: "/web-design-process"
     },
     {
         title: "Expertise",
@@ -22,20 +22,20 @@ export const links = [
 ]
 
 export const footerLinks = [
-    {
-        title: "Facebook",
-        href: "/"
-    },
-    {
-        title: "LinkedIn",
-        href: "/"
-    },
+    // {
+    //     title: "Facebook",
+    //     href: "/"
+    // },
+    // {
+    //     title: "LinkedIn",
+    //     href: "/"
+    // },
     {
         title: "Instagram",
         href: "/"
     },
-    {
-        title: "Twitter",
-        href: "/"
-    }
+    // {
+    //     title: "Twitter",
+    //     href: "/"
+    // }
 ]

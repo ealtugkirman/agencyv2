@@ -91,10 +91,10 @@ export default function ContactUs() {
     };
     return (
         <main>
-            <header id="contact" className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 lg:px-40 bg-blue-900 md:h-96">
+            <header id="contact" className="p-8 grid grid-cols-1 text-light md:grid-cols-2 gap-4 lg:px-40 bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 md:h-96">
                 <div className="mx-auto mb-24 md:mt-20">
-                    <div className="badge bg-green-500 inline-block rounded-xl">
-                        <p className="font-light text-base px-4 py-1 text-gray-50">
+                    <div className="badge bg-sikko inline-block rounded-xl">
+                        <p className="font-semibold text-base px-4 py-1 text-dark">
                             Lets talk
                         </p>
                     </div>
@@ -107,7 +107,7 @@ export default function ContactUs() {
                 </div>
                 <form
                     onSubmit={ handleSubmit }
-                    className="rounded-lg shadow-xl z-10 flex flex-col px-8 py-8 bg-blue-500"
+                    className="rounded-lg shadow-xl z-10 flex flex-col px-8 py-8 bg-slate-900"
                 >
                     <h1 className="text-2xl font-bold dark:text-gray-50">
                         Send a message
@@ -189,7 +189,7 @@ export default function ContactUs() {
                     <div className="flex flex-row items-center justify-start">
                         <button
                             type="submit"
-                            className="px-10 mt-8 py-2 bg-[#130F49] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
+                            className="px-10 mt-8 py-2 bg-sikko text-dark font-light rounded-md text-lg flex flex-row items-center"
                         >
                             { buttonText }
                             <svg
