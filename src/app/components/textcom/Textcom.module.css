@@ -1,0 +1,32 @@
+.main{
+    height: 100vh;
+  
+    .mask, .body{
+      width: 95%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #cb7606;
+      font-size: 64px;
+      line-height: 66px;
+      cursor: default;
+      
+    }
+      .testo {
+        width: 1000px;
+        padding:40px;
+      }
+      .test {
+        color: #6106ff;
+      }
+  
+    .mask{
+      mask-image: url('../../../../public/mask.svg');
+      mask-repeat: no-repeat;
+      mask-size: 40px;
+      background: #4b11a9;
+      position: absolute;
+      color: white;
+    }
+}

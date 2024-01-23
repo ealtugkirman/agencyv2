@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0px;
+}
+
+@layer base {
+  .text-gradient {
+    @apply text-transparent bg-gradient-to-r from-blue-900 bg-clip-text via-red-900 to-black text-5xl;
+  }
+  .quote {
+    @apply p-5 bg-blue-400 border-l-8 text-xl font-medium border-blue-900 bg-opacity-25
+  }
+
+}
+
+h3 {
+  @apply capitalize font-semibold text-4xl;
+}
+
+p {
+  @apply font-light
+}
+
+
+a {
+  @apply cursor-pointer underline underline-offset-4
+}
+
+h4 {
+  @apply capitalize font-semibold pt-8 my-8 text-2xl;
+}
+
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background: #ff0000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
